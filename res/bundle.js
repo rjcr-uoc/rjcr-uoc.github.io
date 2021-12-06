@@ -2069,7 +2069,7 @@
                 var n = e.children, t = e.isMounted, i = void 0 !== t && t, a = e.name, s = Object(o.useState)(!1), l = s[0], c = s[1], d = Object(o.useState)(i), u = d[0], m = d[1],
                     v = Object(o.useCallback)((function () {
                         return m(!0)
-                    }), []), p = "human-box " + a + " " + (u ? "xmounted" : "xunmounted");
+                    }), []), p = "xhuman-box " + a + " " + (u ? "xmounted" : "xunmounted");
                 return Object(r.a)("div", {className: p}, void 0, l ? n(v) : Object(r.a)(un.default, {
                     onIntersection: function (e) {
                         return c(e.isIntersecting)
