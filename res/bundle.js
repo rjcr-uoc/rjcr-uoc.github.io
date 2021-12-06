@@ -2069,7 +2069,7 @@
                 var n = e.children, t = e.isMounted, i = void 0 !== t && t, a = e.name, s = Object(o.useState)(!1), l = s[0], c = s[1], d = Object(o.useState)(i), u = d[0], m = d[1],
                     v = Object(o.useCallback)((function () {
                         return m(!0)
-                    }), []), p = "human-box " + a + " " + (u ? "xmounted" : "unmounted");
+                    }), []), p = "human-box " + a + " " + (u ? "xmounted" : "xunmounted");
                 return Object(r.a)("div", {className: p}, void 0, l ? n(v) : Object(r.a)(un.default, {
                     onIntersection: function (e) {
                         return c(e.isIntersecting)
@@ -3894,7 +3894,7 @@
         }, Ko = function () {
             return Object(o.useContext)(yn)
         }, Qo = (t("oMLA"), function () {
-            return Object(r.a)("main", {role: "main", className: "Content"}, void 0, Object(r.a)("article", {className: "Content__inner"}, void 0, Ko().map((function (e) {
+            return Object(r.a)("main", {role: "main", className: "Content"}, void 0, Object(r.a)("article", {className: "XContent__inner"}, void 0, Ko().map((function (e) {
                 var n = qo[e];
                 return n ? Bt(Object(r.a)(n, {}, e), e) : null
             }))))
