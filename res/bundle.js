@@ -3894,7 +3894,7 @@
         }, Ko = function () {
             return Object(o.useContext)(yn)
         }, Qo = (t("oMLA"), function () {
-            return Object(r.a)("main", {role: "main", className: "Content"}, void 0, Object(r.a)("article", {className: "Content__inner"}, void 0, Ko().map((function (e) {
+            return Object(r.a)("main", {role: "main", className: "Content"}, void 0, Object(r.a)("article", {className: "XContent__inner"}, void 0, Ko().map((function (e) {
                 var n = qo[e];
                 return n ? Bt(Object(r.a)(n, {}, e), e) : null
             }))))
